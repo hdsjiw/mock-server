@@ -1,5 +1,3 @@
-# mock-server
-
 # Mock API Server
 
 FastAPI 기반의 Mock 서버입니다. 간단한 테스트를 위한 목적으로 제작되었습니다.
@@ -35,7 +33,6 @@ python run.py # 방법2
 Authorization: Bearer mock_app_key
 ```
 ## 📂 디렉토리 구조
-### 1. 가상환경 설정 (Windows 기준)
 
 ```
 app/
