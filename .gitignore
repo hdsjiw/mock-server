@@ -1,0 +1,63 @@
+# Python 기본
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VSCode 설정
+.vscode/
+*.code-workspace
+
+# Mac OS
+.DS_Store
+
+# PyCharm 설정
+.idea/
+
+# 환경 변수 및 설정 파일
+.env
+*.env
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Uvicorn reload 관련 캐시
+*.pid
+
+# mypy / pylint / coverage / pytest
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+
+# build
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# DB (옵션)
+*.sqlite3
+*.db
+
+# 테스트 보고서 (예: pytest-html)
+report.html
+
+# 기타
+*.orig
